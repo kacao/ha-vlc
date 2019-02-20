@@ -5,7 +5,7 @@ Docker compose example:
 ```yaml
   homeassistant:
     container_name: hass 
-    image: homeassistant/home-assistant
+    image: kacao/ha-vlc
     volumes:   
       - /media:/media
       - ./ha/config:/config
@@ -20,3 +20,5 @@ Docker compose example:
     privileged: true
     tty: true
 ```
+
+For Raspiberry Pi, use `kacao/vlc:rpi`
