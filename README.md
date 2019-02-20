@@ -21,4 +21,4 @@ Docker compose example:
     tty: true
 ```
 
-For Raspiberry Pi, use `kacao/vlc:rpi`
+For Raspiberry Pi, use `kacao/ha-vlc:rpi`
